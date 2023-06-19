@@ -29,8 +29,8 @@ const Footer = () => {
 
     console.log("Name:", name);
     console.log("Email:", email);
-    setName('');
-    setEmail('');
+    setName("");
+    setEmail("");
   };
 
   return (

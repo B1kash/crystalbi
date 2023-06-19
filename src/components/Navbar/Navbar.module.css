@@ -13,6 +13,14 @@
   color: #f7f7f7;
   text-transform: uppercase;
 }
+.nav-item-selected {
+  margin-left: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: red;
+  font-weight: bold;
+}
 
 .links:hover {
   color: red;
@@ -36,7 +44,7 @@
     padding: 0 50px;
   }
 
-  .links  {
+  .links {
     margin-left: 40px;
   }
   .nav-item-selected {
@@ -49,7 +57,7 @@
     padding: 0 20px;
   }
 
-  .links  {
+  .links {
     margin-left: 20px;
   }
   .nav-item-selected {
@@ -59,22 +67,15 @@
 
 @media only screen and (max-width: 576px) {
   .nav {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
-  .links  {
-    margin-left: 20px;
+  .links {
+    font-size: 10px;
+    margin-left: 10px;
   }
   .nav-item-selected {
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-left: 10px;
   }
-}
-
-.nav-item-selected {
-  margin-left: 60px;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  color: red;
-  font-weight: bold;
 }
