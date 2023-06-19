@@ -51,7 +51,7 @@
 
 @media only screen and (max-width: 576px) {
   .navbar-items li {
-    font-size: 10px;
+    font-size: 6px;
     margin: 0 5px;
   }
 }

@@ -11,9 +11,19 @@ import Footer from "@/components/Footer/Footer";
 import PageLayout from "@/components/Layout/PageLayout";
 
 export default function Home() {
+
+  const navItems = [
+    { label: 'Services', route: '#' },
+    { label: 'Bridal', route: '#' },
+    { label: 'Gallery', route: '#' },
+    { label: 'Shop', route: '#' },
+    { label: 'About US', route: '#' },
+    { label: 'Book An Appointment', route: '#' },
+  ];
+
   return (
     <>
-      <PageLayout>
+      <PageLayout navItems={navItems}>
         <HeaderCarousel />
         <Offers />
         <Carousel />
