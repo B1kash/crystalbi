@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+
+  gap: 10px;
+}
+
+.gridSocial {
+  display: flex;
+
+  gap: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.icon img {
+  max-width: 100%;
+  max-height: 100%;
+}

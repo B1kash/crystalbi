@@ -1,0 +1,61 @@
+.container {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  padding: 40px 0;
+}
+
+.offer_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  padding: 0 80px;
+}
+
+.offer_card {
+  flex: 0 0 25%;
+}
+
+@media (max-width: 1024px) {
+  .offer_cards {
+    justify-content: center;
+    gap: 30px;
+    padding: 0 100px;
+  }
+
+  .offer_card {
+    flex: 0 0 33.33%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .offer_cards {
+    justify-content: center;
+    gap: 30px;
+    padding: 0 50px;
+  }
+
+  .offer_card {
+    flex: 0 0 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .offer_cards {
+    justify-content: center;
+    gap: 30px;
+    padding: 0 50px;
+  }
+
+  .offer_card {
+    flex: 0 0 100%;
+    padding: 10px;
+  }
+}

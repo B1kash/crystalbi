@@ -1,0 +1,23 @@
+.tagElement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.dayName {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+
+  font-size: 14px;
+  min-width: 90px;
+}
+
+.openingTime {
+  min-width: 160px;
+  background-color: red;
+  font-size: 14px;
+  color: white;
+  padding: 12px 8px;
+  text-align: center;
+}

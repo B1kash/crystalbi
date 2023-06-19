@@ -1,0 +1,39 @@
+.brand-container {
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  padding: 40px 0;
+}
+
+.brandGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.brandItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.brandItem img {
+  max-width: 80%;
+  max-height: 80%;
+}
